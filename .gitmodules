@@ -1,0 +1,12 @@
+[submodule "daolicontroller"]
+	path = daolicontroller
+	url = https://github.com/daolinet/daolicontroller.git
+[submodule "daolinet"]
+	path = daolinet
+	url = https://github.com/daolinet/daolinet.git
+[submodule "daolictl"]
+	path = daolictl
+	url = https://github.com/daolinet/daolictl.git
+[submodule "ovsplugin"]
+	path = ovsplugin
+	url = https://github.com/daolinet/ovsplugin.git
