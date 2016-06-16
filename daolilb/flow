@@ -1,0 +1,4 @@
+ovs-ofctl add-flow daolinet in_port=7,tcp,nw_dst=192.168.135.180,tp_dst=6633,action=LOCAL
+ovs-ofctl add-flow daolinet in_port=LOCAL,ip,nw_src=192.168.135.180,action=output:7
+ovs-ofctl add-flow daolinet in_port=1,tcp,nw_src=192.168.1.117,action=drop
+ovs-ofctl add-flow daolinet in_port=1,tcp,nw_dst=192.168.1.117,action=drop
